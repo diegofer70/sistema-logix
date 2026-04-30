@@ -30,10 +30,11 @@ body {
 
 /* Seção Esquerda - Branding */
 .login-left {
-    width: 60%;
+    width: 40%;
     background-image: url('./img/pessoal.png');
     padding: 40px;
     /* background-position: center; */
+    background-position: 30% center;
     /* background-repeat: no-repeat; */
     background-size: 200% auto;
 }
@@ -932,7 +933,9 @@ body {
 /* Responsive */
 @media (max-width: 1024px) {
     .login-left {
-        width: 35%;
+        padding: 30px;
+        background-position: 30% center;
+        background-size: 350% auto;
     }
     
     .login-right {
@@ -965,8 +968,9 @@ body {
     
     .login-left {
         width: 100%;
-        min-height: 300px;
-        padding: 30px 20px;
+        padding: 20px;
+        background-size: cover;
+        background-position: center;
     }
     
     .testimonial-section {
